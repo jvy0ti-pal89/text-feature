@@ -6,6 +6,16 @@ This project demonstrates how raw text data (product reviews) can be converted i
 
 ---
 
+## Dataset
+
+The dataset consists of 100 product-style reviews created to simulate real-world e-commerce user feedback. It includes both positive and negative opinions stored in a single column `review_text`.
+
+Due to time and access constraints, a synthetic dataset was used instead of live web scraping. However, in real-world scenarios, such data can be collected from platforms like Amazon or Flipkart using tools such as Selenium or BeautifulSoup.
+
+The dataset is sufficient for demonstrating text preprocessing, feature engineering, and model building tasks.
+
+---
+
 ## Techniques Used
 
 - Text preprocessing
@@ -59,6 +69,7 @@ This project demonstrates how raw text data (product reviews) can be converted i
 - `review.ipynb` → implementation
 - `reviews.csv` → dataset
 - `report.docx` → detailed explanation
+- `README.md` → Documentation
 
 ---
 
